@@ -7,7 +7,7 @@
   }
 /* Завдання №2. Змініть фон заголовка на зелений, коли користувач наведе курсор миші на посилання: -->
   <!--  Використовуйте цей селектор :hover */
-  .lesson-four-task-two h1:hover {
+  .lesson-four-task-two a:hover + h1 {
     background-color:green;
   }
   /* Завдання №3. Змініть колір тексту відвіданого посилання на жовтий: -->
@@ -140,13 +140,13 @@
 /*  Завдання №19. Застосуйте селектор :focus-within до блоку,
 
   який змінює колір тексту на білий та фоновий колір на жовтий при активному стані. */
-  .lesson-four-task-nineteen .btn-group:focus-within {
+  .lesson-four-task-nineteen .btn-group button:focus-within {
     color: white;
     background-color: yellow;
   }
   /* <!--    Завдання №20. При валідації форми з помилкою, змінюйте колір фону на червоний. -->
 
   <!--      Використовуйте цей селектор :invalid--> */
-  .lesson-four-task-twenty form:invalid {
+  .lesson-four-task-twenty input:invalid {
     background-color: red;
   }
